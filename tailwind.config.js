@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./publicc/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'light-coffee': '#C89F94'
+      }
+    },
   },
   plugins: [],
 }
