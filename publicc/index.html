@@ -4,24 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/favicon/GAME.png" sizes="16x16">
     <title>thiendev coffee style</title>
     <link href="output.css" type="text/css" rel="stylesheet">
+    <script src="./main.js" type="text/javascript" async></script>
 </head>
 
 <body>
     <div id="root">
-        <div class="content-wrapper max-w-screen-2xl text-base mx-auto px-8 bg-slate-200">
-            <header class="py-6 mx-10">
-                <nav class="flex flex-row justify-between items-center ">
+        <div class="content-wrapper font-karla max-w-screen-2xl text-base mx-auto px-8 bg-slate-200">
+            <header class="p-6 mx-auto">
+                <nav class="flex flex-row justify-between items-center relative">
                     <div class="logo basis-2/6 text-center text-xl font-semibold cursor-pointer">
                         coffeeStyle.
                     </div>
-                    <ul
-                        class="flex  justify-end items-center gap-8 uppercase text-sm text-gray-500 font-medium basis-3/6">
-                        <li class="ct-top-menu-item">
+                    <ul id="ct-top-menu"
+                        class=" hidden lg:flex lg:justify-end lg:items-center lg:gap-8 uppercase text-sm text-gray-500 font-medium basis-3/6">
+                        <li class="ct-top-menu-item ct-top-menu-item-active">
                             <a href="" class="">Home</a>
                         </li>
-                        <li class="ct-top-menu-item"><a href="" class="">Our Products</a></li>
+                        <li class="ct-top-menu-item"><a href="" class="">Products</a></li>
                         <li class="ct-top-menu-item"><a href="" class="">Blog</a></li>
                         <li class="ct-top-menu-item"><a href="" class="">About</a></li>
                         <li class="ct-top-menu-item"><a href="" class="">Contact</a></li>
@@ -29,7 +31,7 @@
                     </ul>
 
                     <ul
-                        class="basis-1/6 flex justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium">
+                        class="basis-3/6 hiden flex justify-end lg:justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium">
                         <li class="ct-top-menu-item">
                             <a href="" class="flex items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -43,6 +45,16 @@
                             </a>
                         </li>
                     </ul>
+
+                    <div class=" basis-1/6 lg:hidden cursor-pointer px-2 sm:px-4">
+                        <svg id="ct-toggle-top-menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="ct-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+
+
+                    </div>
                 </nav>
             </header>
             <main>
