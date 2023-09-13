@@ -883,11 +883,6 @@ video {
   color: rgb(162 95 75 / var(--tw-text-opacity));
 }
 
-.text-gray-400{
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
-}
-
 .text-gray-500{
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
@@ -901,11 +896,6 @@ video {
 .text-gray-800{
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
-}
-
-.text-gray-900{
-  --tw-text-opacity: 1;
-  color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
 .text-white{
@@ -1014,31 +1004,12 @@ video {
   margin-left: 1rem;
   margin-right: 1rem;
   text-align: center;
-  font-size: 0.75rem;
-  line-height: 1rem;
+  font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-
-.ct-button{
-  cursor: pointer;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-  text-align: center;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-
-.ct-button:hover{
-  --tw-bg-opacity: 0.9;
 }
 
 .after\:absolute::after{
@@ -1077,37 +1048,9 @@ video {
   background-color: rgb(232 230 208 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-gray-900:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-opacity-10:hover{
-  --tw-bg-opacity: 0.1;
-}
-
-.hover\:bg-opacity-90:hover{
-  --tw-bg-opacity: 0.9;
-}
-
-.hover\:text-coffee-400:hover{
-  --tw-text-opacity: 1;
-  color: rgb(162 95 75 / var(--tw-text-opacity));
-}
-
 .hover\:text-coffee-600:hover{
   --tw-text-opacity: 1;
   color: rgb(116 72 56 / var(--tw-text-opacity));
-}
-
-.hover\:transition-all:hover{
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.hover\:ease-in-out:hover{
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hover\:after\:bg-coffee-200:hover::after{
@@ -1116,29 +1059,7 @@ video {
   background-color: rgb(200 159 148 / var(--tw-bg-opacity));
 }
 
-.group:hover .group-hover\:block{
-  display: block;
-}
-
-@keyframes fadeIn{
-  from{
-    opacity: 0;
-  }
-
-  to{
-    opacity: 1;
-  }
-}
-
-.group:hover .group-hover\:animate-fadeIn{
-  animation: fadeIn 0.7s ease-in-out;
-}
-
 @media (min-width: 640px){
-  .sm\:h-\[540px\]{
-    height: 540px;
-  }
-
   .sm\:px-16{
     padding-left: 4rem;
     padding-right: 4rem;
@@ -1188,10 +1109,6 @@ video {
 
   .lg\:gap-8{
     gap: 2rem;
-  }
-
-  .lg\:gap-4{
-    gap: 1rem;
   }
 
   .lg\:px-32{
