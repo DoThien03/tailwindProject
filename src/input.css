@@ -29,7 +29,7 @@
 @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-xs text-center;
 }
 .ct-button{
-    @apply uppercase tracking-widest py-4 px-7 text-sm font-semibold cursor-pointer hover:bg-opacity-90 text-center;
+    @apply uppercase tracking-widest pt-[1.05rem] pb-[1.05rem] px-7 text-sm font-semibold cursor-pointer hover:bg-opacity-90 text-center;
 }
 .ct-parallax{
     @apply w-[100vw] relative left-[calc(-50vw+50%)];
