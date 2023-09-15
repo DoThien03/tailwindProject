@@ -645,6 +645,10 @@ video {
   height: 300px;
 }
 
+.h-\[340px\]{
+  height: 340px;
+}
+
 .h-\[440px\]{
   height: 440px;
 }
@@ -655,6 +659,10 @@ video {
 
 .h-full{
   height: 100%;
+}
+
+.h-\[380px\]{
+  height: 380px;
 }
 
 .w-11\/12{
@@ -846,12 +854,20 @@ video {
   background-image: url('./images/image9.jpg');
 }
 
+.bg-\[url\(\'\.\/images\/parallax\.jpg\'\)\]{
+  background-image: url('./images/parallax.jpg');
+}
+
 .bg-\[url\(\'\.\/images\/slider\.jpg\'\)\]{
   background-image: url('./images/slider.jpg');
 }
 
 .bg-cover{
   background-size: cover;
+}
+
+.bg-fixed{
+  background-attachment: fixed;
 }
 
 .bg-bottom{
@@ -1147,6 +1163,12 @@ video {
 
 .ct-button:hover{
   --tw-bg-opacity: 0.9;
+}
+
+.ct-parallax{
+  position: relative;
+  left: calc(-50vw + 50%);
+  width: 100vw;
 }
 
 .after\:absolute::after{
