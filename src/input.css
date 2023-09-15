@@ -31,3 +31,6 @@
 .ct-button{
     @apply uppercase tracking-widest py-4 px-7 text-sm font-semibold cursor-pointer hover:bg-opacity-90 text-center;
 }
+.ct-parallax{
+    @apply w-[100vw] relative left-[calc(-50vw+50%)];
+}
