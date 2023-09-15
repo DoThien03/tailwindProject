@@ -579,14 +579,14 @@ video {
   margin-right: auto;
 }
 
-.my-6{
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
 .my-4{
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .mb-24{
@@ -673,6 +673,10 @@ video {
   width: 100px;
 }
 
+.w-\[65\%\]{
+  width: 65%;
+}
+
 .w-\[95\%\]{
   width: 95%;
 }
@@ -684,10 +688,6 @@ video {
 .w-max{
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[65\%\]{
-  width: 65%;
 }
 
 .max-w-screen-2xl{
@@ -727,10 +727,6 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.grid-cols-3{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .grid-rows-2{
   grid-template-rows: repeat(2, minmax(0, 1fr));
 }
@@ -761,10 +757,6 @@ video {
 
 .gap-8{
   gap: 2rem;
-}
-
-.border-2{
-  border-width: 2px;
 }
 
 .bg-gray-900{
@@ -810,6 +802,18 @@ video {
   background-image: url('./images/image14.jpg');
 }
 
+.bg-\[url\(\'\.\/images\/image15\.jpg\'\)\]{
+  background-image: url('./images/image15.jpg');
+}
+
+.bg-\[url\(\'\.\/images\/image16\.jpg\'\)\]{
+  background-image: url('./images/image16.jpg');
+}
+
+.bg-\[url\(\'\.\/images\/image17\.jpg\'\)\]{
+  background-image: url('./images/image17.jpg');
+}
+
 .bg-\[url\(\'\.\/images\/image2\.jpg\'\)\]{
   background-image: url('./images/image2.jpg');
 }
@@ -844,18 +848,6 @@ video {
 
 .bg-\[url\(\'\.\/images\/slider\.jpg\'\)\]{
   background-image: url('./images/slider.jpg');
-}
-
-.bg-\[url\(\'\.\/images\/image15\.jpg\'\)\]{
-  background-image: url('./images/image15.jpg');
-}
-
-.bg-\[url\(\'\.\/images\/image16\.jpg\'\)\]{
-  background-image: url('./images/image16.jpg');
-}
-
-.bg-\[url\(\'\.\/images\/image17\.jpg\'\)\]{
-  background-image: url('./images/image17.jpg');
 }
 
 .bg-cover{
@@ -974,10 +966,6 @@ video {
 
 .leading-7{
   line-height: 1.75rem;
-}
-
-.leading-4{
-  line-height: 1rem;
 }
 
 .tracking-wider{
@@ -1251,16 +1239,16 @@ video {
 }
 
 @media (min-width: 640px){
+  .sm\:h-\[300px\]{
+    height: 300px;
+  }
+
   .sm\:h-\[400px\]{
     height: 400px;
   }
 
   .sm\:h-\[540px\]{
     height: 540px;
-  }
-
-  .sm\:h-\[300px\]{
-    height: 300px;
   }
 
   .sm\:grid-cols-2{
